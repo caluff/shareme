@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import {Routes, Route, useNavigate} from "react-router-dom";
 
 function App() {
 
   return (
-    <div className="App">
-        bla
-    </div>
+      <h1 className="text-3xl font-bold underline">
+          Hello world!
+      </h1>
   )
 }
 
