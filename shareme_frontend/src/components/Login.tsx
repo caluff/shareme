@@ -1,7 +1,7 @@
 import GoogleLogin from "@harisenin/react-google-login";
 import {useNavigate} from "react-router-dom";
 import {FcGoogle} from "react-icons/all";
-import shareVideo from '../assets/pinterestdownloader.com-1673536092.932735.mp4'
+import shareVideo from '../assets/mylivewallpapers.com-Mass-Effect.mp4'
 import logo from '../assets/logocaluff.png'
 import {client} from "../client";
 
@@ -19,18 +19,17 @@ const Login = () => {
             userName: name,
             image: imageUrl,
         }
-
-         /*client.createIfNotExists(doc)
+         client.createIfNotExists(doc)
              .then(() => {
                  navigate('/',{replace:true})
-             })*/
+             })
     }
     return (
         <div className="flex justify-start items-center flex-col h-screen">
             <div className="relative w-full h-full">
                 <video
                     src={shareVideo}
-                    typeof="viseo/mp4"
+                    typeof="video/mp4"
                     loop
                     controls={false}
                     muted
