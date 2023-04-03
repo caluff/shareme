@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@harisenin/react-google-login": "0.0.4",
+    "@react-oauth/google": "^0.9.0",
     "@sanity/client": "^5.4.1",
     "@sanity/image-url": "^1.0.2",
     "react": "^18.2.0",

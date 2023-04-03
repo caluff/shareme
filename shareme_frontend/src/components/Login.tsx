@@ -1,4 +1,4 @@
-import GoogleLogin from "@harisenin/react-google-login";
+import GoogleLogin from "react-google-login";
 import {useNavigate} from "react-router-dom";
 import {FcGoogle} from "react-icons/all";
 import shareVideo from '../assets/mylivewallpapers.com-Mass-Effect.mp4'
@@ -42,7 +42,7 @@ const Login = () => {
                         <GoogleLogin
                             clientId="152921657783-dmq0o95e6pvea0v08ncokrv8p1hoccs3.apps.googleusercontent.com"
                             /*process.env.REACT_APP_GOOGLE_API_TOKEN*/
-                            render={(renderProps) => (
+                            render={(renderProps:any) => (
                                 <button
                                     type="button"
                                     className="bg-mainColor flex justify-center items-center p-3 rounded-lg cursor-pointer outline-none"
